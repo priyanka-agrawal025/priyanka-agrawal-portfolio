@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 function MainNav() {
     return (
       <>
-        <Navbar bg="light" variant="light">
+        <Navbar bg="dark" variant="dark">
           <Container>
             <Navbar.Brand href="/home">Priyanka Agrawal</Navbar.Brand>
             <Nav className="me-auto">

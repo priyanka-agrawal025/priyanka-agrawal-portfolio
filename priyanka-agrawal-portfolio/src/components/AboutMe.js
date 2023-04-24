@@ -1,23 +1,24 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import CardImg from "react-bootstrap/esm/CardImg";
+import Image from "react-bootstrap/esm/Image";
 import image from "../assets/aboutmepic.jpg";
 
 
 function AboutMe() {
   return (
-    <Card style={{ width: '40rem' }}>
-      <CardImg variant="top" src={image} />
+    <div className="justify-content-center">
+    <Card style={{ width: '40rem' }} className="m-4">
+      <Image variant="top" src={image} thumbnail />
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+        <Card.Title>Junior Front-End Developer</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Hello! My name is Priyanka Agrawal, I am a Junior Developer looking to jumpstart my career in the tech industry. I am open to new work experiences. Navigate through this page to see my past works and reach out if you are interested!!
         </Card.Text>
         <Button variant="primary">Go somewhere</Button>
       </Card.Body>
     </Card>
+    </div>
   );
 }
 

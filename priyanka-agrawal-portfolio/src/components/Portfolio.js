@@ -6,6 +6,7 @@ import AboutMe from "./AboutMe";
 import Contact from "./Contact";
 import Projects from "./Projects";
 import Resume from "./Resume";
+import Footer from "./Footer";
 
 function Portfolio() {
     return (
@@ -19,6 +20,7 @@ function Portfolio() {
                     <Route path='/portfolio' element={<Projects />} />
                     <Route path='/resume' element={<Resume />} />
                 </Routes>
+                <Footer />
             </Router>
         </>
     );
